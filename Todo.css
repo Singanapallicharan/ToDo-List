@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(135deg, #153677, #4e085f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card {
+    background: #fff;
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card p{
+    color : rgb(3, 3, 63);
+    font-size : 20px;
+    
+    margin-left : 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.search input {
+    border: none;
+    width: 100%;
+    margin: 0px 30px;
+    background-color: rgb(247, 244, 244);
+    padding: 15px 60px 15px 20px;
+    border-radius: 50px;
+    outline: none;
+}
+.search button {
+    position: absolute;
+    right: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.todoitems p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 10px;
+}
+.todoitems img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.completed-task {
+    text-decoration: line-through;
+    color: gray;
+}
+.cross-button {
+   margin-left : auto;
+   border : None;
+   cursor : pointer;
+   background: transparent;
+   font-size: 15px;
+}
